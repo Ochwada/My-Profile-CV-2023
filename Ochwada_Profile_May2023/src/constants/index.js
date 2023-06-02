@@ -122,10 +122,10 @@ import {
       iconBg: "#E6DEDD",
       date: "May 2022 - Present",
       points: [
-        "User Experience Liaison: Guides software development based on user insights and feedback.",
-        "Marketing and Communication Specialist: Prepares and promotes new releases through various media.",
-        "Knowledge Manager: Bridges information gap between users and developers.",
-        "Network Development and Relationship Manager: Expands Dealcode's reach and influence.",
+        "User Experience Liaison: Guiding software development based on user insights and feedback.",
+        "Marketing and Communication Specialist: Preparing and promoting new releases through various media.",
+        "Knowledge Manager: Bridging information gap between users and developers.",
+        "Network Development and Relationship Manager: Expanding Dealcode's reach and influence.",
       ],
     },
     {
@@ -135,10 +135,10 @@ import {
       iconBg: "#383E56",
       date: "July 2019 —Aug 2021",
       points: [
-        "Project Manager: Oversees geodata science, web, and app development projects from inception to closure, involving teams across various regions.",
-        "Financial & Business Director: Supervises the company's financial performance, investments, and business ventures, while driving revenue through new initiatives.",
-        "People & Operations Leader: Delegates responsibilities, manages resources including hiring and retention, and motivates team for maximum performance.",
-        "Public Relations & Marketing Executive: Acts as the public face of the company, enhancing its profile, and participates in marketing activities such as conferences.",
+        "Project Manager: Directing geodata, web, and app projects globally from start to finish.",
+        "Financial Director: Overseeing financial performance, investments, and drives revenue.",
+        "Operations Leader: Managing team responsibilities, hiring, retention, and performance.",
+        "PR & Marketing Executive: Representing the company publicly and leads marketing efforts.",
       ],
     },
     {
@@ -148,10 +148,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2019 —June 2019",
       points: [
-        "Geodata Pre-Processor: Compiles and cleans geodata from various sources for machine learning algorithms, and performs geospatial modelling and analysis.",
-        "Data Analyst: Analyzes 3D data, satellite data, and sensor data to provide insights and support decision-making.",
-        "GIS Support and Consultant: Assists in the development and management of GIS applications, supports computer-based GIS mapping, and consults with stakeholders on GIS and Remote Sensing software.",
-        "Web Manager & Presenter: Manages website updates on WordPress, presents projects at conferences, and participates in marketing activities such as conferences and fairs.",
+        "Geodata Pre-Processor: Managing geodata for machine learning and geospatial analysis.",
+        "Data Analyst: Handling 3D, satellite, and sensor data analysis.",
+        "GIS Consultant: Supporting GIS application development, mapping, and stakeholder consultations.",
+        "Web & PR Manager: Managing website updates and presents at conferences.",
       ],
     },
     {
