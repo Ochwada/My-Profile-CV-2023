@@ -32,7 +32,7 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Profolio",
     },
     {
       id: "contact",
@@ -46,11 +46,11 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Geoinformatics",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Tech Evangelist",
       icon: backend,
     },
     {
