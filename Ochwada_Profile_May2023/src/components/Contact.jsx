@@ -87,7 +87,7 @@ const Contact = () => {
         className="x1:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
 
-<EarthCanvas/>
+        <EarthCanvas />
       </motion.div>
 
     </div>
