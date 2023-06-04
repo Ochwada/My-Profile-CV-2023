@@ -43,6 +43,10 @@ export const navLinks = [
     title: "Blogs",
   },
   {
+    id: "events",
+    title: "Events",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -302,5 +306,44 @@ const blogs = [
     blog_link: "https://example.com/blog1",
   },
 ];
+const events = {
+  panelDiscussions: [
+    {
+      title: "Panel discussion 1",
+      date: "2023-06-01",
+      topic: "AI advancements",
+      link: "https://example.com/event1",
+    },
+    // ... more panel discussions
+  ],
+  virtualEvents: [
+    {
+      title: "Virtual Event 1",
+      date: "2023-06-01",
+      topic: "AI advancements",
+      link: "https://example.com/event2",
+    },
+    // ... more virtual events
+  ],
+  pressEvents: [
+    {
+      title: "Press Event 1",
+      date: "2023-06-01",
+      topic: "AI advancements",
+      link: "https://example.com/event3",
+    },
+    // ... more press events
+  ],
+  roundTableDiscussions: [
+    {
+      title: "Round Table 1",
+      date: "2023-06-01",
+      topic: "AI advancements",
+      link: "https://example.com/event4",
+    },
+    // ... more round table discussions
+  ],
+};
 
-export { services, technologies, experiences, testimonials, projects, blogs };
+
+export { services, technologies, experiences, testimonials, projects, blogs, events };
