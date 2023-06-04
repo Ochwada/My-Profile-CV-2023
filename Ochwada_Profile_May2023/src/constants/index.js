@@ -32,7 +32,11 @@ import {
     },
     {
       id: "work",
-      title: "Profolio",
+      title: "Experience",
+    },
+    {
+      id: "portfolio",
+      title: "Portfolio",
     },
     {
       id: "contact",
@@ -217,6 +221,7 @@ import {
       ],
       image: carrent,
       source_code_link: "https://github.com/",
+      website_link: "https://ochwada.netlify.app/",
     },
     {
       name: "Job IT",
@@ -238,6 +243,8 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/",
+      website_link: "https://ochwada.netlify.app/",
+      
     },
     {
       name: "Trip Guide",
@@ -259,7 +266,11 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
+      website_link: "https://ochwada.netlify.app/",
     },
+    
+   
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };
