@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  github,
 } from "../assets";
 
 export const navLinks = [
@@ -344,6 +345,29 @@ const events = {
     // ... more round table discussions
   ],
 };
+const socialMedia = [
+  {
+    icon: github, // path to icon
+    link: 'https://github.com/Ochwada' // link to social media page
+  },
+  {
+    icon: github, // path to icon
+    link: 'https://github.com/Ochwada' // link to social media page
+  },
+  {
+    icon: github, // path to icon
+    link: 'https://github.com/Ochwada' // link to social media page
+  },
+  {
+    icon: github, // path to icon
+    link: 'https://github.com/Ochwada' // link to social media page
+  },
+  {
+    icon: github, // path to icon
+    link: 'https://github.com/Ochwada' // link to social media page
+  },
+  // ... more social media items
+];
 
 
-export { services, technologies, experiences, testimonials, projects, blogs, events };
+export { services, technologies, experiences, testimonials, projects, blogs, events, socialMedia };

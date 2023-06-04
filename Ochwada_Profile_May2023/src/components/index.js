@@ -9,6 +9,7 @@ import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Blog from './Blog';
 import Events from './Events';
+import SocialMedia from './SocialMedia';
 
 export {
   Hero,
@@ -24,5 +25,6 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  Events
+  Events,
+  SocialMedia
 }
