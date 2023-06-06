@@ -46,10 +46,14 @@ import afroai from "./mine/afroai.jpeg";
 import dealcode from "./mine/dealcode.png";
 import supper from "./mine/supper.png"
 
+import python from "./mine/python.png";
+import esri from "./mine/esri.png"
+
 export {
   clv, drumkit, newsletter, simon,
   dev, facebook, twitter, linkedin, medium,
   gfz, afroai, dealcode, supper,
+  python, esri,
   logo,
   backend,
   creator,

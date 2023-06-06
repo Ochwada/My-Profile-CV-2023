@@ -25,7 +25,7 @@ import {
   threejs,
   github,
   dev, facebook, twitter, linkedin, medium, clv, drumkit, newsletter, simon,
-  gfz, afroai, dealcode, supper,
+  gfz, afroai, dealcode, supper, python, esri,
 } from "../assets";
 
 export const navLinks = [
@@ -76,6 +76,14 @@ const services = [
 
 const technologies = [
   {
+    name: "ESRI",
+    icon: esri,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -87,10 +95,6 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  /*   {
-      name: "TypeScript",
-      icon: typescript,
-    }, */
   {
     name: "React JS",
     icon: reactjs,
@@ -232,7 +236,7 @@ const projects = [
     ],
     image: clv,
     source_code_link: "https://github.com/Ochwada/Software_Code_Pytho",
-    // website_link: " ",
+    website_link: " ",
   },
   {
     name: "DRUM KIT",
@@ -458,7 +462,7 @@ const events = {
       topic: "'Modern day disaster response- the good, the challenges and successful equitable response' - Special Interest Group Meeting ",
       link: "https://www.linkedin.com/posts/ochwada-l-66630a36_northstar-geospatial-link-activity-6687269638088351744-UXN5",
     },
-  
+
     // ... more virtual events
   ],
   roundTableDiscussions: [
