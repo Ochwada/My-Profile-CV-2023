@@ -309,7 +309,7 @@ const projects = [
   {
     name: "Newsletter",
     description:
-      "Embark on the Simon Game Challenge - a fun, memory-boosting programming task. Improve skills in DOM manipulation, event handling, timers, and state management by creating this classic game.",
+      "Build an engaging newsletter subscription service with Node.js and JavaScript. Leverage the power of Mailchimp for managing your subscriber list, sending automated emails, and tracking campaign performance.",
     tags: [
       {
         name: "Javascript",
