@@ -24,11 +24,8 @@ import {
   tripguide,
   threejs,
   github,
-  dev,
-  facebook,
-  twitter,
-  linkedin,
-  medium,
+  dev, facebook, twitter, linkedin, medium, clv, drumkit, newsletter, simon,
+  gfz, afroai, dealcode, supper,
 } from "../assets";
 
 export const navLinks = [
@@ -136,7 +133,7 @@ const experiences = [
   {
     title: "Product Evangelist",
     company_name: "Dealcode GmbH (Hamburg -Germany)",
-    icon: meta,
+    icon: dealcode,
     iconBg: "#E6DEDD",
     date: "May 2022 - Present",
     points: [
@@ -149,8 +146,8 @@ const experiences = [
   {
     title: "Managing Director / Consultant",
     company_name: "AfroAI UG  (Berlin -Germany)",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: afroai,
+    iconBg: "#E6DEDD",
     date: "July 2019 —Aug 2021",
     points: [
       "Project Manager: Directing geodata, web, and app projects globally from start to finish.",
@@ -161,8 +158,8 @@ const experiences = [
   },
   {
     title: "GeoData Analyst Consultant",
-    company_name: "Super & Super GmbH (Berlin -Germany)",
-    icon: tesla,
+    company_name: "Supper & Supper GmbH (Berlin -Germany)",
+    icon: supper,
     iconBg: "#E6DEDD",
     date: "Jan 2019 —June 2019",
     points: [
@@ -175,8 +172,8 @@ const experiences = [
   {
     title: "Geoinformatics Working Student",
     company_name: "GFZ - German Research Centre For Geosciences  (Potsdam - Germany)",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: gfz,
+    iconBg: "#E6DEDD",
     date: "April 2015 —Sept 2015",
     points: [
       "Data Retrieval: Acquiring data from the city's Greenhouse Gases (GHG) database.",
@@ -216,71 +213,93 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "CLV-PREDICTION",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "CLV as North Star Metric is the single metric that best captures the core value that your product delivers to customers.",
     tags: [
       {
-        name: "react",
+        name: "PredictiveAnalytics",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "python",
+        color: "blue-text-gradient",
       },
-      {
-        name: "tailwind",
+      /* {
+        name: "",
         color: "pink-text-gradient",
-      },
+      }, */
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-    website_link: "https://ochwada.netlify.app/",
+    image: clv,
+    source_code_link: "https://github.com/Ochwada/Software_Code_Pytho",
+    // website_link: " ",
   },
   {
-    name: "Job IT",
+    name: "DRUM KIT",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      " creating a virtual drum kit app using scripting language. By exploring DOM, key events, and CSS animations, you'll learn to add event listeners to buttons and keystrokes. The result will be an engaging website that showcases your coding skills.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Javascript",
+        color: "orange-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "frontEnd",
         color: "pink-text-gradient",
       },
+      /* {
+        name: "scss",
+        color: "pink-text-gradient",
+      }, */
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-    website_link: "https://ochwada.netlify.app/",
+    image: drumkit,
+    source_code_link: "https://github.com/Ochwada/Web_Projects_Hosted_Online/tree/main/Drum%20Kit%20Starting%20Files",
+    website_link: "https://drum-kit-ochwada.netlify.app/",
 
   },
   {
-    name: "Trip Guide",
+    name: "Simon Game Challenge",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Embark on the Simon Game Challenge - a fun, memory-boosting programming task. Improve skills in DOM manipulation, event handling, timers, and state management by creating this classic game.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "Javascript",
+        color: "orange-text-gradient",
       },
       {
-        name: "supabase",
+        name: "frontEnd",
+        color: "pink-text-gradient",
+      },
+      /* {
+        name: "css",
+        color: "pink-text-gradient",
+      }, */
+    ],
+    image: simon,
+    source_code_link: "https://github.com/Ochwada/Web_Projects_Hosted_Online/tree/main/Simon%20Game%20Challenge%20Starting%20Files",
+    website_link: "https://simon-game-ochwada.netlify.app/",
+  },
+  {
+    name: "Simon Game Challenge",
+    description:
+      "Embark on the Simon Game Challenge - a fun, memory-boosting programming task. Improve skills in DOM manipulation, event handling, timers, and state management by creating this classic game.",
+    tags: [
+      {
+        name: "Javascript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "NodeJS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "fullStack",
+        color: "lightgreen-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-    website_link: "https://ochwada.netlify.app/",
+    image: newsletter,
+    source_code_link: "https://github.com/Ochwada/Web_Projects_Hosted_Online/tree/main/Newsletter-SignUp",
+    website_link: "https://newsletter-signup-ochwada.vercel.app/",
   },
 
 

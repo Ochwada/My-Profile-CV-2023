@@ -36,12 +36,20 @@ import twitter from "./mine/twitter.png";
 import linkedin from "./mine/linkedin.png";
 import medium from "./mine/medium.png";
 
+import clv from "./mine/clv.png";
+import drumkit from "./mine/drumkit.png";
+import newsletter from "./mine/newsletter.png";
+import simon from "./mine/simon.png"
+
+import gfz from "./mine/gfz.png";
+import afroai from "./mine/afroai.jpeg";
+import dealcode from "./mine/dealcode.png";
+import supper from "./mine/supper.png"
+
 export {
-  dev,
-  facebook,
-  twitter,
-  linkedin,
-  medium,
+  clv, drumkit, newsletter, simon,
+  dev, facebook, twitter, linkedin, medium,
+  gfz, afroai, dealcode, supper,
   logo,
   backend,
   creator,
