@@ -40,12 +40,12 @@ export const navLinks = [
     title: "Portfolio",
   },
   {
-    id: "blogs",
-    title: "Blogs",
-  },
-  {
     id: "events",
     title: "Events",
+  },
+  {
+    id: "blogs",
+    title: "Blogs",
   },
   {
     id: "contact",
@@ -307,44 +307,226 @@ const blogs = [
     blog_link: "https://example.com/blog1",
   },
 ];
+
+// EVENTS
 const events = {
   panelDiscussions: [
     {
-      title: "Panel discussion 1",
-      date: "2023-06-01",
-      topic: "AI advancements",
-      link: "https://example.com/event1",
+      title: "STATE-OF-THE-MAP OPENSTREETMAPS",
+      date: "23.11.2019",
+      topic: "Detecting, Mapping & Monitoring of Shallow Water Ponds from SAR Imagery using DL",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_africa-geoai-ivorycoast-activity-6603984304055824384-CVPF",
+    },
+    {
+      title: "DEUTSCHER BUNDESTAG",
+      date: "06.11.2019",
+      topic: "Digitisation and AI Opportunities in Africa",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_artficialintelligence-africa-geospatialdata-activity-6597723455615979520-HMg-/",
+    },
+    {
+      title: "BLACK IN TECH",
+      date: "24.09.2019",
+      topic: "GreenTech and Diversity",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_throw-back-a-discussion-on-green-tech-activity-6921862225406136320-NxSW",
+    },
+    {
+      title: "NEXIGA GmbH INNOVATIONSTAG",
+      date: "14.05.2019",
+      topic: " Integration of GIS and DL in Detection and Mapping of Renewable Energy Infrastructure",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_nexiga-innovationstag-innovation2019-activity-6531880173585866753--0d_",
+    },
+    {
+      title: "WOMEN IN MACHINE LEARNING & DATA SCIENCE BERLIN",
+      date: "23.04.2019",
+      topic: "Geospatial AI",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_dramatic-wimlds-geospatial-activity-6526542173012262912-UFp_",
+    },
+    {
+      title: "GEOSPATIAL WORLD FORUM",
+      date: "04. 04.2019",
+      topic: "Integration of GIS and DL in Detection and Mapping of Renewable Energy Infrastructure",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_gwf2019-geospatiall-deeplearning-activity-6519515571149684736-jiJj",
+    },
+    {
+      title: "BLACK BUSINESS MATTER",
+      date: "11.2018",
+      topic: "Tech & Agriculture - A Geospatial Approach",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_blackbussinessmatter-bigdata-datascience-activity-6478725188115529728-B4aU",
+    },
+    {
+      title: "WOMEN IN TECH (AFRICA)",
+      date: "22.09.2018",
+      topic: "Geospatial Science in precision agriculture",
+      link: "https://twitter.com/nakhulolinda/status/1043564629157445639",
     },
     // ... more panel discussions
   ],
   virtualEvents: [
     {
-      title: "Virtual Event 1",
-      date: "2023-06-01",
-      topic: "AI advancements",
-      link: "https://example.com/event2",
+      title: "ESRI Inc",
+      date: "31.03.2021",
+      topic: "Champions of GIS",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_geospatial-gis-data-activity-6779780991998418944-t53e/",
     },
-    // ... more virtual events
-  ],
-  pressEvents: [
     {
-      title: "Press Event 1",
-      date: "2023-06-01",
-      topic: "AI advancements",
-      link: "https://example.com/event3",
+      title: "WOMEN + IN GEOSPATIAL",
+      date: "8.03.2021",
+      topic: "Women’s Leadership in the Geospatial Field",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_choosetochallenge-wig-iwd2021-activity-6774740632104787968-OGux?",
     },
-    // ... more press events
+    {
+      title: "TEMSAFRICA ICT EVENTS 2020",
+      date: "25. 11. 2020",
+      topic: "ICT & Digitisation: Powering Africa’s Growth and Trasformation",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_datascience-machinelearning-innovation-activity-6735210907259035648-xkti",
+    },
+    {
+      title: "BLACK IN TECH",
+      date: "15.10.2020",
+      topic: "From Employment to Entrepreneurship",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_blackintech-africanentrepreneurs-technology-activity-6717082366080372736-_237",
+    },
+    {
+      title: "ESRI USER CONFERENCE EVENT",
+      date: "16.07.2020",
+      topic: "'Modern day disaster response- the good, the challenges and successful equitable response' - Special Interest Group Meeting ",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_northstar-geospatial-link-activity-6687269638088351744-UXN5",
+    },
+  
+    // ... more virtual events
   ],
   roundTableDiscussions: [
     {
-      title: "Round Table 1",
+      title: "AFRIKA-VEREIN DER DEUTSCHEN WIRTSCHAFT",
+      date: "3.03.2020",
+      topic: "Fostering economic development between Germany and Africa",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_zimbabwe-economicdevelopment-finance-activity-6640592675680591872-8r0N",
+    },
+    {
+      title: "AFRIKA-VEREIN DER DEUTSCHEN WIRTSCHAFT",
+      date: "11.12.2019",
+      topic: "Fostering economic development between Germany and the Great Lake regions",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_geospatialdata-geodata-artficialintelligence-activity-6610587399313473536-Nzdc",
+    },
+    {
+      title: "AFRIKA-VEREIN DER DEUTSCHEN WIRTSCHAFT",
       date: "2023-06-01",
-      topic: "AI advancements",
-      link: "https://example.com/event4",
+      topic: "Fostering German-Kenyan business cooperations",
+      link: "https://example.com/eventhttps://www.linkedin.com/posts/ochwada-l-66630a36_germanafricaaward-angelamerkel-activity-6592773490816888832-97Jb",
     },
     // ... more round table discussions
   ],
+  podcast: [
+    {
+      title: "Technical University BERLIN ",
+      date: "22.09.2020",
+      topic: "The alumni podcast 'Zukunftsmacher*innen'",
+      link: "https://www.linkedin.com/posts/tuberlin_haemrtipp-tuberlin-activity-6775702020528721920-q5Ih",
+    },
+    // ... more press events
+  ],
+  hostedWorkshops: [
+    {
+      title: "AFRIKA-VEREIN DER DEUTSCHEN WIRTSCHAFT",
+      date: "24.09.2019",
+      topic: "1st German-African ICT” - CO-HOSTED",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_geospatialdata-geodata-artficialintelligence-activity-6605353158908628992-Mqi2",
+    },
+    {
+      title: "DJANGO GIRLS NAIROBI",
+      date: "2 / 3. 10. 2014",
+      topic: "Free Programming Workshop for Women",
+      link: "https://djangogirls.org/de/nairobi1/",
+    },
+    // ... more press events
+  ],
+  pressInterview: [
+    {
+      title: "DEUTSCHE WELLE",
+      date: "19.09.2019 ",
+      topic: "Impact of AfroAI in Africa’s tech industry",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_abit-of-a-chat-with-deutsche-welle-activity-6580404640871927808-GU_c",
+    },
+    {
+      title: "THE DIASPORA RADIO",
+      date: "04.05.2019",
+      topic: "Africa Youth of the Year Award",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_dataiku-activity-6531414010896609280-uMQS",
+    },
+    // ... more press events
+  ],
+  pressNewspapers: [
+    {
+      title: "THE PEOPLE NEWSPAPER (KENYA)",
+      date: "02.03.2022",
+      topic: "How Kenya can Leverage AI to Solve Problem",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_how-kenya-can-leverage-ai-to-solve-problems-activity-6911944504459583488-Jd1y",
+    },
+    {
+      title: "ESRI - CHAMPIONS OF GIS",
+      date: "2021",
+      topic: "Women and GIS, Volume 3: Champions of a Sustainable World",
+      link: "https://storymaps.arcgis.com/stories/cc9cfbc3421b48f9a8e1e8e838aba4f6",
+    },
+    {
+      title: "THE PEOPLE NEWSPAPER (KENYA)",
+      date: "02.03.2021",
+      topic: "Tell Your Story - Geoinformatics Opened a new World for Me",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_technology-techforafrica-geospatialdata-activity-6772414036870070272-etZD",
+    },
+    {
+      title: "GREENPEACE GERMANY",
+      date: "04. 2017",
+      topic: "Adaptation of Climate Change - Community Based organisation Activity",
+      link: "https://twitter.com/nakhulolinda/status/858000228066217985",
+    },
+    // ... more press events
+  ],
+  pressMentions: [
+    {
+      title: "RADIANT EARTH FOUNDATION",
+      date: "08.05.2021",
+      topic: "15 Leading women in ML4EO 'Machine Learning for Earth Observation'",
+      link: "https://twitter.com/OurRadiantEarth/status/1368917937139113985",
+    },
+    {
+      title: "DAILY NATION (KENYA)",
+      date: "08.05.2021",
+      topic: "The Kenyan Trailblazers- Looking beyond the Global Health Crisis",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_kenya-iot-geospatialintelligence-activity-6774565042496126976-3c4s",
+    },
+    // ... more press events
+  ],
+  productPresentation: [
+    {
+      title: "AG-CAREER HUB",
+      date: "02.10.2020",
+      topic: "Getting to know FIKO",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_about-activity-6717380497669976064-MPw3",
+    },
+    {
+      title: "FIKO",
+      date: "2020",
+      topic: "A Proximity Alert System made for the African Market",
+      link: "https://twitter.com/AfroaiDe/status/1307929233172422656",
+    },
+    {
+      title: "BIG DATA SUMMIT - BERLIN",
+      date: "2019",
+      topic: "Data Science product presentation (Booth)",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_datascience-machinelearning-deeplearning-activity-6521717855442993152-QIKw",
+    },
+    {
+      title: "GEEK GIRLS CARROT",
+      date: "07.10. 2018",
+      topic: "HLAG - FinTech & Blockchain Hackathon - Product Presentation",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_technology-womenintech-fintech-activity-6454767037775380480-auUt",
+    },
+    // ... more press events
+  ],
 };
+
+
 const socialMedia = [
   {
     icon: github, // path to icon

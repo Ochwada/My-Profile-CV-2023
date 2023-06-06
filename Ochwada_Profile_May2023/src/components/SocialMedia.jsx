@@ -30,7 +30,8 @@ const SocialMedia = () => {
     return (
         <>
             <motion.div variants={textVariant()}>
-                <h4 className={`${styles.sectionSubText} `}>Social Media.</h4>
+                <p className={`${styles.sectionSubText} `}>Find me Online</p>
+                <h2 className={`${styles.sectionHeadText}`}>Social Media.</h2>
             </motion.div>
 
             <div className='mt-20 flex flex-wrap gap-7  justify-center items-center '>
@@ -42,4 +43,4 @@ const SocialMedia = () => {
     )
 }
 
-export default SocialMedia
+export default SectionWrapper(SocialMedia, '')
