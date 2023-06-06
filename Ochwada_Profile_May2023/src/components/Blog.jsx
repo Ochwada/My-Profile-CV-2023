@@ -12,20 +12,19 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 const BlogCard = ({ index, name, description, date, blog_link }) => {
     return (
-        <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-            <Tilt options={{ max: 35, scale: 1, speed: 450 }}
-                className="bg-tertiary p-4 rounded-2xl sm:w-[360PX] w-full p-[1px] violet-gradient">
+        <motion.div>
+            <Tilt options={{ max: 30, scale: 1, speed: 100}}
+                className="bg-tertiary p-4 rounded-2xl sm:w-[360PX] w-full p-[1px] blue-text-gradient">
                 <div className="mt-2">
-                    <h3 className='text-black font-bold text-[18px]'>{name}</h3>
-                    <p className="mt-2 text-secondary text-[14px]">
+                    <h3 className='text-black font-bold text-[16px]'>{name}</h3>
+                    <p className="mt-2 text-secondary text-[12px]">
                         {description.length > 180 ? description.substring(0, 180) + "..." : description}
                     </p>
                     <p className="mt-2 text-secondary text-[10px] italic">{date}</p>
                     <button
                         onClick={() => window.open(blog_link, "_blank")}
-                        className='mt-2 text-secondary text-[12px] cursor-pointer text-bold'
-                    >
-                        READ MORE ...
+                        className="text-black font-bold py-1 m-2 px-2 rounded text-[12px] border border-gray-200 hover:border-blue-400 transition-colors duration-300">
+                        <p>READ MORE ...</p>
                     </button>
                 </div>
             </Tilt>
