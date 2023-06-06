@@ -30,7 +30,18 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import dev from "./mine/dev.png";
+import facebook from "./mine/facebook.png";
+import twitter from "./mine/twitter.png";
+import linkedin from "./mine/linkedin.png";
+import medium from "./mine/medium.png";
+
 export {
+  dev,
+  facebook,
+  twitter,
+  linkedin,
+  medium,
   logo,
   backend,
   creator,

@@ -24,6 +24,11 @@ import {
   tripguide,
   threejs,
   github,
+  dev,
+  facebook,
+  twitter,
+  linkedin,
+  medium,
 } from "../assets";
 
 export const navLinks = [
@@ -530,23 +535,33 @@ const events = {
 const socialMedia = [
   {
     icon: github, // path to icon
-    link: 'https://github.com/Ochwada' // link to social media page
+    link: 'https://github.com/Ochwada', // link to social media page
+    name: 'Github'
   },
   {
-    icon: github, // path to icon
-    link: 'https://github.com/Ochwada' // link to social media page
+    icon: medium, // path to icon
+    link: 'https://medium.com/@ochwada', // link to social media page
+    name: 'Medium'
   },
   {
-    icon: github, // path to icon
-    link: 'https://github.com/Ochwada' // link to social media page
+    icon: dev, // path to icon
+    link: 'https://dev.to/ochwada', // link to social media page
+    name: 'Dev.to'
   },
   {
-    icon: github, // path to icon
-    link: 'https://github.com/Ochwada' // link to social media page
+    icon: linkedin, // path to icon
+    link: 'https://www.linkedin.com/in/ochwada-l-66630a36/', // link to social media page
+    name: 'Linkedin'
   },
   {
-    icon: github, // path to icon
-    link: 'https://github.com/Ochwada' // link to social media page
+    icon: facebook, // path to icon
+    link: 'https://www.facebook.com/ochwada.linda', // link to social media page
+    name: 'Facebook'
+  },
+  {
+    icon: twitter, // path to icon
+    link: 'https://twitter.com/nakhulolinda', // link to social media page
+    name: 'Twitter'
   },
   // ... more social media items
 ];
