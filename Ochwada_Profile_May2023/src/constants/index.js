@@ -24,7 +24,8 @@ import {
   tripguide,
   threejs,
   github,
-  dev, facebook, twitter, linkedin, medium, clv, drumkit, newsletter, simon,
+  dev, facebook, twitter, linkedin, medium, 
+  clv, drumkit, newsletter, simon, linda,
   gfz, afroai, dealcode, supper, python, esri,
 } from "../assets";
 
@@ -217,6 +218,28 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Portfolio (March 2023)",
+    description:
+      "A simple portfolio using React and Sanity ",
+    tags: [
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Sanity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      }, 
+    ],
+    image: linda,
+    source_code_link: "https://ochwada.netlify.app/",
+    website_link: "https://github.com/Ochwada/profile_ochwada/tree/main",
+  },
+  {
     name: "CLV-PREDICTION",
     description:
       "CLV as North Star Metric is the single metric that best captures the core value that your product delivers to customers.",
@@ -284,7 +307,7 @@ const projects = [
     website_link: "https://simon-game-ochwada.netlify.app/",
   },
   {
-    name: "Simon Game Challenge",
+    name: "Newsletter",
     description:
       "Embark on the Simon Game Challenge - a fun, memory-boosting programming task. Improve skills in DOM manipulation, event handling, timers, and state management by creating this classic game.",
     tags: [

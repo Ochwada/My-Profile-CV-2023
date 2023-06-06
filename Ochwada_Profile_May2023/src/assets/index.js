@@ -40,6 +40,7 @@ import clv from "./mine/clv.png";
 import drumkit from "./mine/drumkit.png";
 import newsletter from "./mine/newsletter.png";
 import simon from "./mine/simon.png"
+import linda from "./mine/linda.png";
 
 import gfz from "./mine/gfz.png";
 import afroai from "./mine/afroai.jpeg";
@@ -50,7 +51,7 @@ import python from "./mine/python.png";
 import esri from "./mine/esri.png"
 
 export {
-  clv, drumkit, newsletter, simon,
+  clv, drumkit, newsletter, simon, linda,
   dev, facebook, twitter, linkedin, medium,
   gfz, afroai, dealcode, supper,
   python, esri,
