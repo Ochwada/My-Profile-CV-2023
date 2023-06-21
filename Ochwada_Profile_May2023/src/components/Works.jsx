@@ -1,5 +1,5 @@
 
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { Tilt } from 'react-tilt';
 import { motion, spring } from 'framer-motion';
 
@@ -72,10 +72,14 @@ const Works = () => {
 
   const [loadmore, setLoadmore] = useState(false)
 
-  const loadMore = () => { setLoadmore(true) }
+  const loadMore = () => {
+    setLoadmore(true)
+    console.log("Loading clicked")
+  }
+  console.log("current load more state:", loadmore)
 
-const displayData  = loadmore ? projects : projects.slice(0, 3) //display only 3 data
-//console.log(displayData)
+  const displayData = loadmore ? projects : projects.slice(0, 3) //display only 3 data
+  //console.log(displayData)
 
 
   return (
@@ -106,13 +110,14 @@ const displayData  = loadmore ? projects : projects.slice(0, 3) //display only 3
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))} */}
 
-        {displayData.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
-        
+        {displayData.map((project, index) => {
+          console.log(`Rendering project at index ${index}:`, project);
+          return <ProjectCard key={`project-${index}`} index={index} {...project} />
+        })}
+
       </div>
       <button onClick={loadMore}> Load More</button>
-      
+
     </>
   )
 }

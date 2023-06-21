@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import { Tilt } from 'react-tilt';
 import { motion, spring } from 'framer-motion';
 
@@ -33,6 +34,15 @@ const BlogCard = ({ index, name, description, date, blog_link }) => {
 }
 
 const Blog = () => {
+
+    const [loadmore, setLoadmore] = useState(false)
+
+  const loadMore = () => {
+    setLoadmore(true)
+  }
+
+  const displayData = loadmore ? blogs : blogs.slice(0, 6) //display only 3 data
+  //console.log(displayData)
     return (
         <>
             <motion.div variants={textVariant()}>
@@ -41,10 +51,11 @@ const Blog = () => {
             </motion.div>
 
             <div className='mt-20 flex flex-wrap gap-5 justify-between'>
-                {blogs.map((blog, index) => (
+                {displayData.map((blog, index) => (
                     <BlogCard key={`blog-${index}`} index={index} {...blog} />
                 ))}
             </div>
+            <button onClick={loadMore}> Load More Blogs</button>
         </>
     )
 }
