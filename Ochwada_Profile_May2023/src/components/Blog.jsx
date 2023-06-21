@@ -14,7 +14,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 const BlogCard = ({ index, name, description, date, blog_link }) => {
     return (
         <motion.div>
-            <Tilt options={{ max: 30, scale: 1, speed: 100}}
+            <Tilt options={{ max: 30, scale: 1, speed: 100 }}
                 className="bg-tertiary p-4 rounded-2xl sm:w-[360PX] w-full p-[1px] blue-text-gradient">
                 <div className="mt-2">
                     <h3 className='text-black font-bold text-[16px]'>{name}</h3>
@@ -37,12 +37,12 @@ const Blog = () => {
 
     const [loadmore, setLoadmore] = useState(false)
 
-  const loadMore = () => {
-    setLoadmore(true)
-  }
+    const loadMore = () => {
+        setLoadmore(true)
+    }
 
-  const displayData = loadmore ? blogs : blogs.slice(0, 6) //display only 3 data
-  //console.log(displayData)
+    const displayData = loadmore ? blogs : blogs.slice(0, 6) //display only 3 data
+    //console.log(displayData)
     return (
         <>
             <motion.div variants={textVariant()}>
@@ -55,7 +55,12 @@ const Blog = () => {
                     <BlogCard key={`blog-${index}`} index={index} {...blog} />
                 ))}
             </div>
-            <button onClick={loadMore}> Load More Blogs</button>
+            <div className='mt-10 gap-5'>
+                <button className="bg-blue-400 hover:bg-blue-500 text-white  py-2 px-2 border-b-4 border-blue-700 hover:border-blue-400 rounded" onClick={loadMore} >
+                    Load More Blogs
+                </button>
+            </div>
+
         </>
     )
 }

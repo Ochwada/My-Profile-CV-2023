@@ -10,9 +10,23 @@ import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link, website_link }) => {
+/* const ProjectCard = ({ project}) => {
+console.log('Coming from Project Card', project);
 
   return (
+    <div>
+    <h1>{projects.name}</h1>
+      <p>  My Projects </p>
+    </div>
+  )
+} */
+
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, website_link }) => {
+
+  console.log('projects', projects);
+
+  return (
+
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt options={{ max: 45, scale: 1, speed: 450 }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360PX] w-full ">
@@ -24,7 +38,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            {/* Github */}
+           
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -35,7 +49,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
-            {/* website */}
+          
             <div
               onClick={() => window.open(website_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -63,10 +77,9 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 
         </div>
       </Tilt>
-    </motion.div>
+    </motion.div> 
   )
 }
-
 
 const Works = () => {
 
@@ -79,7 +92,9 @@ const Works = () => {
   console.log("current load more state:", loadmore)
 
   const displayData = loadmore ? projects : projects.slice(0, 3) //display only 3 data
-  //console.log(displayData)
+  console.log(displayData, 'this is coming from works')
+  //console.log(typeof displayData)
+  console.log('Data from Projects', projects)
 
 
   return (
@@ -105,6 +120,7 @@ const Works = () => {
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
+      
 
         {/* {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
@@ -112,7 +128,12 @@ const Works = () => {
 
         {displayData.map((project, index) => {
           console.log(`Rendering project at index ${index}:`, project);
+          console.log(project, 'from displayData map')
+
+         //return  <ProjectCard index={index} project={project} />
+
           return <ProjectCard key={`project-${index}`} index={index} {...project} />
+          
         })}
 
       </div>
