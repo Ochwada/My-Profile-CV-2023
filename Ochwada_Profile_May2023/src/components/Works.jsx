@@ -1,4 +1,5 @@
 
+import React, {useState} from 'react';
 import { Tilt } from 'react-tilt';
 import { motion, spring } from 'framer-motion';
 
@@ -69,6 +70,14 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 
 const Works = () => {
 
+  const [loadmore, setLoadmore] = useState(false)
+
+  const loadMore = () => { setLoadmore(true) }
+
+const displayData  = loadmore ? projects : projects.slice(0, 3) //display only 3 data
+//console.log(displayData)
+
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -91,11 +100,19 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7 '>
-        {projects.map((project, index) => (
+      <div className='mt-20 flex flex-wrap gap-7'>
+
+        {/* {projects.map((project, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        ))} */}
+
+        {displayData.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+        
       </div>
+      <button onClick={loadMore}> Load More</button>
+      
     </>
   )
 }
