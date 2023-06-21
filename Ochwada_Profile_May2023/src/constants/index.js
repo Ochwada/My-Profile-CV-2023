@@ -217,6 +217,7 @@ const testimonials = [
 ];
 
 const projects = [
+ 
   {
     name: "Portfolio (March 2023)",
     description:
@@ -328,9 +329,6 @@ const projects = [
     source_code_link: "https://github.com/Ochwada/Web_Projects_Hosted_Online/tree/main/Newsletter-SignUp",
     website_link: "https://newsletter-signup-ochwada.vercel.app/",
   },
-
-
-
 ];
 const blogs = [
   {
@@ -456,6 +454,18 @@ const events = {
   ],
   virtualEvents: [
     {
+      title:"GISfest",
+      date: "11-12.10.2022 ",
+      topic: "Technical Career Panel Session",
+      link: "https://www.linkedin.com/feed/update/urn:li:activity:6985195159076368384/",
+    },
+    {
+      title: "Centre for Multidisciplinary Research and Innovation",
+      date: "27.08.2022",
+      topic: "AI in Africa: Challenges and Opportunities",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_ai-ai-machinelearning-activity-6968111418793455616-WLCB?",
+    },
+    {
       title: "ESRI Inc",
       date: "31.03.2021",
       topic: "Champions of GIS",
@@ -503,9 +513,9 @@ const events = {
     },
     {
       title: "AFRIKA-VEREIN DER DEUTSCHEN WIRTSCHAFT",
-      date: "2023-06-01",
+      date: "21.10.2019",
       topic: "Fostering German-Kenyan business cooperations",
-      link: "https://example.com/eventhttps://www.linkedin.com/posts/ochwada-l-66630a36_germanafricaaward-angelamerkel-activity-6592773490816888832-97Jb",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_germanafricaaward-angelamerkel-activity-6592773490816888832-97Jb",
     },
     // ... more round table discussions
   ],
@@ -534,6 +544,12 @@ const events = {
     // ... more press events
   ],
   pressInterview: [
+    {
+      title: "Club 100 Sales - Sales Expert Talk",
+      date: " .01.2023 ",
+      topic: "What does a Product Evangelist do? What is Dealcode ?",
+      link: "https://www.linkedin.com/feed/update/urn:li:activity:6993251466454925312?",
+    },
     {
       title: "DEUTSCHE WELLE",
       date: "19.09.2019 ",
@@ -572,6 +588,12 @@ const events = {
       date: "04. 2017",
       topic: "Adaptation of Climate Change - Community Based organisation Activity",
       link: "https://twitter.com/nakhulolinda/status/858000228066217985",
+    },
+    {
+      title: "THE STAR (KENYA)",
+      date: "26.09.2014",
+      topic: "Young Woman Teaching Girls how to Code",
+      link: "https://www.linkedin.com/posts/ochwada-l-66630a36_python-event-software-activity-6973904729475010560-mGCX?",
     },
     // ... more press events
   ],
