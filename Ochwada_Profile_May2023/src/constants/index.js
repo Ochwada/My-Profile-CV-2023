@@ -144,8 +144,8 @@ const experiences = [
     points: [
       "User Experience Liaison: Guiding software development based on user insights and feedback.",
       "Marketing and Communication Specialist: Preparing and promoting new releases through various media.",
-      "Knowledge Manager: Bridging information gap between users and developers.",
-      "Network Development and Relationship Manager: Expanding Dealcode's reach and influence.",
+      "Knowledge Bridging: Bridging information gap between users and developers.",
+      "Network Development and Relationship: Expanding Dealcode's reach and influence.",
     ],
   },
   {
@@ -171,7 +171,7 @@ const experiences = [
       "Geodata Pre-Processor: Managing geodata for machine learning and geospatial analysis.",
       "Data Analyst: Handling 3D, satellite, and sensor data analysis.",
       "GIS Consultant: Supporting GIS application development, mapping, and stakeholder consultations.",
-      "Web & PR Manager: Managing website updates and presents at conferences.",
+      "Web & PR: Managing website updates and presents at conferences.",
     ],
   },
   {
