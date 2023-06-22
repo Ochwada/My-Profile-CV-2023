@@ -55,8 +55,8 @@ const Blog = () => {
                     <BlogCard key={`blog-${index}`} index={index} {...blog} />
                 ))}
             </div>
-            <div className='mt-10 gap-5'>
-                <button className="bg-blue-400 hover:bg-blue-500 text-white  py-2 px-2 border-b-4 border-blue-700 hover:border-blue-400 rounded" onClick={loadMore} >
+            <div className='mt-10 gap-5 flex flex-col items-center'>
+                <button className=" uppercase text-xs violet-gradient hover:bg-blue-500 text-white  py-2 px-2 border-b-4 border-blue-700 hover:border-blue-400 rounded" onClick={loadMore} >
                     Load More Blogs
                 </button>
             </div>

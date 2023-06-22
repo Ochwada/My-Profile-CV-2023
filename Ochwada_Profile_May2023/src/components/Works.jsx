@@ -38,7 +38,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-           
+
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -49,7 +49,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
-          
+
             <div
               onClick={() => window.open(website_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -77,7 +77,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 
         </div>
       </Tilt>
-    </motion.div> 
+    </motion.div>
   )
 }
 
@@ -120,7 +120,7 @@ const Works = () => {
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
-      
+
 
         {/* {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
@@ -130,14 +130,18 @@ const Works = () => {
           console.log(`Rendering project at index ${index}:`, project);
           console.log(project, 'from displayData map')
 
-         //return  <ProjectCard index={index} project={project} />
+          //return  <ProjectCard index={index} project={project} />
 
           return <ProjectCard key={`project-${index}`} index={index} {...project} />
-          
+
         })}
 
       </div>
-      <button onClick={loadMore}> Load More</button>
+      <div className='mt-10 gap-5 flex flex-col items-center'>
+                <button className="violet-gradient uppercase text-xs hover:bg-blue-500 text-white  py-2 px-2 border-b-4 border-blue-700 hover:border-blue-400 rounded" onClick={loadMore} >
+                    Load More Projects
+                </button>
+            </div>
 
     </>
   )
