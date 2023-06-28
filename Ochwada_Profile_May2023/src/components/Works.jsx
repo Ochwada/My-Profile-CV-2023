@@ -25,9 +25,10 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 
   console.log('projects', projects);
 
+  console.log(index)
   return (
 
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div>
       <Tilt options={{ max: 45, scale: 1, speed: 450 }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360PX] w-full ">
         <div className='relative w-full h-[230px] '>
@@ -83,15 +84,18 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 
 const Works = () => {
 
-  const [loadmore, setLoadmore] = useState(true)
+  const [loadmore, setLoadmore] = useState(false)
 
   const loadMore = () => {
     setLoadmore(true)
+    setDisplayData(projects);
     console.log("Loading clicked")
   }
   console.log("current load more state:", loadmore)
 
-  const displayData = loadmore ? projects : projects.slice(0, 3) //display only 3 data
+  const [displayData, setDisplayData ] = useState(projects.slice(0, 3))
+
+  // const displayData = loadmore ? projects : projects.slice(0, 3) //display only 3 data
 
   console.log(displayData, 'this is coming from works')
   //console.log(typeof displayData)
