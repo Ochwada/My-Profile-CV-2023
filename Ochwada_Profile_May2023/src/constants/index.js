@@ -25,7 +25,7 @@ import {
   threejs,
   github,
   dev, facebook, twitter, linkedin, medium, 
-  clv, drumkit, newsletter, simon, linda,
+  clv, drumkit, newsletter, simon, linda, cartoonize,
   gfz, afroai, dealcode, supper, python, esri,
 } from "../assets";
 
@@ -222,10 +222,10 @@ const projects = [
     description:
       "Transforming photos into cartoons using Python's OpenCV library. Essential image processing techniques and creating fun, cartoon-style images.",
     tags: [
-      {
+     /*  {
         name: "PredictiveAnalytics",
         color: "blue-text-gradient",
-      },
+      }, */
       {
         name: "python",
         color: "blue-text-gradient",
@@ -235,14 +235,14 @@ const projects = [
         color: "pink-text-gradient",
       }, */
     ],
-    image: clv,
-    source_code_link: "https://github.com/Ochwada/Software_Code_Pytho",
+    image: cartoonize,
+    source_code_link: "https://github.com/Ochwada/Data-Science-2023/tree/main/Photos%20into%20Cartoons",
     website_link: " ",
   },
   {
     name: "Portfolio (March 2023)",
     description:
-      "A simple portfolio using React and Sanity ",
+      "A simple portfolio using React and Sanity. This portfolio demonstrates proficiency in modern web development technologies, featuring a clean, user-friendly interface and efficient content management. ",
     tags: [
       {
         name: "React",

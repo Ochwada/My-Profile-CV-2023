@@ -36,11 +36,14 @@ import twitter from "./mine/twitter.png";
 import linkedin from "./mine/linkedin.png";
 import medium from "./mine/medium.png";
 
+// projects
+
 import clv from "./mine/clv.png";
 import drumkit from "./mine/drumkit.png";
 import newsletter from "./mine/newsletter.png";
 import simon from "./mine/simon.png"
 import linda from "./mine/linda.png";
+import cartoonize from "./mine/cartoonize.jpg"
 
 import gfz from "./mine/gfz.png";
 import afroai from "./mine/afroai.jpeg";
@@ -51,7 +54,7 @@ import python from "./mine/python.png";
 import esri from "./mine/esri.png"
 
 export {
-  clv, drumkit, newsletter, simon, linda,
+  clv, drumkit, newsletter, simon, linda, cartoonize,
   dev, facebook, twitter, linkedin, medium,
   gfz, afroai, dealcode, supper,
   python, esri,
