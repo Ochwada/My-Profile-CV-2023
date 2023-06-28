@@ -83,7 +83,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 
 const Works = () => {
 
-  const [loadmore, setLoadmore] = useState(false)
+  const [loadmore, setLoadmore] = useState(true)
 
   const loadMore = () => {
     setLoadmore(true)
@@ -92,6 +92,7 @@ const Works = () => {
   console.log("current load more state:", loadmore)
 
   const displayData = loadmore ? projects : projects.slice(0, 3) //display only 3 data
+
   console.log(displayData, 'this is coming from works')
   //console.log(typeof displayData)
   console.log('Data from Projects', projects)

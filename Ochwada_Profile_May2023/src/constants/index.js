@@ -217,7 +217,28 @@ const testimonials = [
 ];
 
 const projects = [
- 
+  {
+    name: "TURNING PHOTOS INTO CARTOONS",
+    description:
+      "Transforming photos into cartoons using Python's OpenCV library. Essential image processing techniques and creating fun, cartoon-style images.",
+    tags: [
+      {
+        name: "PredictiveAnalytics",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      /* {
+        name: "",
+        color: "pink-text-gradient",
+      }, */
+    ],
+    image: clv,
+    source_code_link: "https://github.com/Ochwada/Software_Code_Pytho",
+    website_link: " ",
+  },
   {
     name: "Portfolio (March 2023)",
     description:
