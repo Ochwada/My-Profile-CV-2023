@@ -20,8 +20,8 @@ const Hero = () => {
               Linda
             </span> </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            The <span className="text-pink-200">Tech Evangelist </span> <br className="sm:block hidden" />
-            Empowering Tomorrow's Innovations, Today!
+            <span className="text-MyPink">Tech Evangelist </span> | <span className="text-MyPink"> Geoinformatician </span><br className="sm:block hidden" />
+            Empowering Tomorrow's Geospatial Innovations, Today!
           </p>
         </div>
       </div>

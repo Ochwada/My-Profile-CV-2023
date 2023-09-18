@@ -25,10 +25,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
-          <p className='text-pink-200 text-[18px] font-bold cursor-pointer flex'>
-            Linda &nbsp;
-            <span className='sm:block hidden'>| Ochwada </span>
+          <img src={logo} alt="logo" className='w-10 h-10 object-contain' />
+          <p className='text-MyPink text-[18px] font-bold cursor-pointer flex'>
+            <span className='sm:block hidden'>Ochwada</span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
@@ -36,7 +35,7 @@ const Navbar = () => {
             <li
               key={link.id}
               className={`${active === link.title
-                ? "text-pink-200"
+                ? "text-MyPink"
                 : "text-secondary"
                 } hover:text-purple-300 text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}

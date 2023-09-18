@@ -62,7 +62,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Geoinformatics",
+    title: "Geoinformatician",
     icon: mobile,
   },
   {
@@ -70,7 +70,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Public Speaker",
     icon: creator,
   },
 ];
@@ -258,8 +258,8 @@ const projects = [
       }, 
     ],
     image: linda,
-    source_code_link: "https://ochwada.netlify.app/",
-    website_link: "https://github.com/Ochwada/profile_ochwada/tree/main",
+    source_code_link: "https://github.com/Ochwada/profile_ochwada/tree/main",
+    website_link: "https://ochwada.netlify.app/ ",
   },
   {
     name: "CLV-PREDICTION",
