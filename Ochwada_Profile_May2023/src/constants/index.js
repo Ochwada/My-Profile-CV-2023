@@ -424,6 +424,12 @@ const blogs = [
 const events = {
   panelDiscussions: [
     {
+      title: "AGYLE LIVE WEEK 23 diskutierten",
+      date: "11.09.2023",
+      topic: "Digital Transformation",
+      link: "https://www.linkedin.com/posts/land-der-ideen_agyle40under40-agyle40under40-agyle23-activity-7107368774147653632-e1fs",
+    },
+    {
       title: "STATE-OF-THE-MAP OPENSTREETMAPS",
       date: "23.11.2019",
       topic: "Detecting, Mapping & Monitoring of Shallow Water Ponds from SAR Imagery using DL",
